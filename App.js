@@ -1,5 +1,6 @@
 
 import SearchInput from "./SearchInput.js"
+import { fetchLanguage } from "./api.js"
 
 export default function App({ target }) {
     this.state = {
