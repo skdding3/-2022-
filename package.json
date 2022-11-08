@@ -19,5 +19,6 @@
   "homepage": "https://github.com/grepp/web-202203-DevMatching-webfe-client#readme",
   "dependencies": {
     "serve": "^13.0.2"
-  }
+  },
+  "type": "module"
 }
