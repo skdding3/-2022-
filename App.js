@@ -1,5 +1,5 @@
 
-import SearchInput from './SearchInput'
+import SearchInput from "./SearchInput.js"
 
 export default function App({ target }) {
     this.state = {
@@ -11,7 +11,7 @@ export default function App({ target }) {
         // TODO: 구현예정
     }
 
-    const SearchInput = new SearchInput({
+    const searchInput = new SearchInput({
         target,
         initialState: ''
     })

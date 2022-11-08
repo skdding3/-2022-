@@ -1,12 +1,12 @@
-export default function searchInput({
-    $target,
+export default function SearchInput({
+    target,
     initialState
 }) {
     this.element = document.createElement('form')
     this.element.className = "SearchInput"
     this.state = initialState
 
-    $target.appendChild(this.element)
+    target.appendChild(this.element)
 
 
     this.render = () => {
